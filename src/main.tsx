@@ -3,13 +3,13 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
-import About from "./Components/About.tsx";
+import App from "../src/App.jsx";
 
 // Define the router with routes
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <About />, // Main app component that handles internal routing
+    element: <App />, // Main app component that handles internal routing
   },
   
   
